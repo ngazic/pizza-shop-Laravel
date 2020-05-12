@@ -20,3 +20,9 @@ mysql> ALTER USER 'user'@"localhost" IDENTIFIED WITH mysql_native_password BY 'p
 mysql> FLUSH PRIVILEGES;
 ```
 
+## Remote mySql credentials:
+```
+URL: https://remotemysql.com/phpmyadmin/index.php?db=afV3dy58KP
+U:afV3dy58KP
+P:zYIJhbbBIG
+```

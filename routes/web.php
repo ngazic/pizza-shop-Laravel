@@ -18,7 +18,7 @@ Route::get('/', function () {
   return view('layouts.master');
 })->name('home');
 
-Route::view('/signin', 'signin')->name('signin');
+Route::view('/signin', 'signin')->name('login');
 
 Route::view('/signup', 'signup')->name('signup');
 
