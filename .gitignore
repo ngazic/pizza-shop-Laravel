@@ -1,6 +1,7 @@
 /node_modules
 /vendor
 .phpunit.result.cache
+.env
 Homestead.json
 Homestead.yaml
 npm-debug.log
