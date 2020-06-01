@@ -30,4 +30,5 @@
     </form>
   </div>
 </div>
+@include('includes.messages-block')
 @endsection

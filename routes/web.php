@@ -38,3 +38,7 @@ Route::get('/delete-post/{post_id}','PostController@getDeletePost')->name('delet
 Route::post('/edit-post/', 'PostController@postEditPost')->name('edit.post');
 
 Route::get('/user','UserController@getUser')->name('user');
+
+Route::post('/edit-user/', 'UserController@postEditUser')->name('edit.user');
+
+Route::get('/user-image/{filename}', 'UserController@getImage')->name('account.images');

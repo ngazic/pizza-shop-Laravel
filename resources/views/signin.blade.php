@@ -3,7 +3,7 @@
 <div class="row justify-content-center">
   <div class="col-sm-8">
     <h1>Sign In</h1>
-    <form action="/signin" method="POST">
+  <form action="{{ route('login') }}" method="POST">
       @csrf
       <div class="form-group ">
         <label for="Email">Email address</label>
@@ -22,15 +22,5 @@
     </form>
   </div>
 </div>
-<div class="row">
-  <div class="col-sm-6">
-    @if(count($errors) > 0)
-    <ul>
-      @foreach ($errors->all() as $error)
-      <li>{{ $error }}</li>
-      @endforeach
-    </ul>
-    @endif
-  </div>
-</div>
+@include('includes.messages-block')
 @endsection
